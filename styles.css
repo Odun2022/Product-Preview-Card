@@ -174,7 +174,6 @@ button img {
     }
 }
 
-
 @media (max-width: 500px) {
     #product {
         flex-direction: column;
@@ -204,15 +203,15 @@ button img {
         color: var(--Dark-grayish-blue);
         text-transform: uppercase;
         letter-spacing: 5px;
-        padding-bottom: 20px;
-        padding-top: 1em;
+        padding-bottom: 12px;
+        padding-top: 12px;
         font-size: 14px;
     }
     h1 {
         font-family: var(--font-1);
         font-weight: 700;
-        font-size: 2em;
-        padding-bottom: 20px;
+        font-size: 1.5em;
+        padding-bottom: 10px;
     }
     .p-text {
         font-family: var(--font-2);
@@ -222,6 +221,12 @@ button img {
         line-height: 2;
         font-weight: 500;
         padding-bottom: 1em;
+    }
+    .price h2 {
+        font-family: var(--font-1);
+        color: var(--Dark-cyan);
+        font-size: 1.5rem;
+        font-weight: 500;
     }
     button{
         margin-block: 1em;
